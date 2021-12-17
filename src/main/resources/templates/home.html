@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+
+<h3 th:text=" 'Погода в городе Москва на '+ ${weather.weather_date} + ' составляет '+ ${weather.weather_value} "> </h3>
+
+</body>
+
+</html>
